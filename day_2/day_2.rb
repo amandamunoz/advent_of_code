@@ -15,7 +15,7 @@ end
 def main
   grand_total_surface_area = 0
 
-  File.readlines('day_2_data.txt').each do |line|
+  File.readlines('day_2_input.txt').each do |line|
     grand_total_surface_area += calculate_surface_area(line)
   end
 
